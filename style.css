@@ -1,0 +1,40 @@
+.container {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .left {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+}
+
+.container .left .text-box {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .left .img-container img {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.container .right {
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */

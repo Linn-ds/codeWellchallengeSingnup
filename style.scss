@@ -1,0 +1,34 @@
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+
+  .left {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+
+    .text-box {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .img-container {
+      img {
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  .right {
+    width: 50%;
+  }
+}
